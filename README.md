@@ -1,4 +1,7 @@
 # urlhealth
+<p align="center">
+<img width="850" height="720" alt="image" src="https://github.com/user-attachments/assets/c0115221-9e1d-472f-a663-08748d2335ef" />
+</p>
 
 A Python library to check whether a URL is live, dead, or likely hallucinated. When a URL is dead, it automatically checks the [Wayback Machine](https://web.archive.org/) for an archived snapshot.
 
