@@ -3,7 +3,7 @@
 <img width="850" height="720" alt="image" src="https://github.com/user-attachments/assets/c0115221-9e1d-472f-a663-08748d2335ef" />
 </p>
 
-A Python library to check whether a URL is live, dead, or likely hallucinated. When a URL is dead, it automatically checks the [Wayback Machine](https://web.archive.org/) for an archived snapshot.
+A Python library and accompanying agent skill to check whether a URL is live, dead, or likely hallucinated. When a URL is dead, it automatically checks the [Wayback Machine](https://web.archive.org/) for an archived snapshot.
 
 ## Installation
 
@@ -61,6 +61,10 @@ if result["url_status"] == "LIVE":
    - Archived snapshot found &rarr; `DEAD` (with `wayback_url` populated).
    - No snapshot &rarr; `LIKELY_HALLUCINATED`.
 4. Any other status code or connection error &rarr; `UNKNOWN`.
+
+## Agent Skill
+
+An [agentskills.io](https://agentskills.io)-compatible skill is included in [`skill/url-health/`](skill/). Install it to use `/url-health` or natural language URL checks in Claude Code, Codex CLI, Gemini CLI, and other compatible agents. See the [skill README](skill/README.md) for details.
 
 ## License
 
