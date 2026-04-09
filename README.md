@@ -69,3 +69,18 @@ An [agentskills.io](https://agentskills.io)-compatible skill is included in [`sk
 ## License
 
 See [LICENSE](LICENSE) for details.
+
+## Citation
+Please cite this work as: 
+
+```
+@misc{rao2026detectingcorrectingreferencehallucinations,
+      title={Detecting and Correcting Reference Hallucinations in Commercial LLMs and Deep Research Agents}, 
+      author={Delip Rao and Eric Wong and Chris Callison-Burch},
+      year={2026},
+      eprint={2604.03173},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2604.03173}, 
+}
+```
